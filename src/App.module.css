@@ -47,9 +47,25 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 20px;
-  color: gray;
+  color: black;
 }
 
+@media (max-width: 500px) {
+  .contain {
+    max-width: 500px;
+    overflow: hidden;
+  }
+  .container {
+    padding: 20px 40px;
+  }
+  .before {
+    margin-left: -70px;
+    margin-top: -100px;
+  }
+  .uz {
+    margin-top: -30px;
+  }
+}
 @media (max-width: 425px) {
   .container {
     padding: 20px 20px;

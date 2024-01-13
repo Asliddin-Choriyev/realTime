@@ -8,7 +8,7 @@ function App() {
     setInterval(() => setTime(new Date()), 1000);
   });
   return (
-    <>
+    <div className={styles["contain"]}>
       <video
         className={styles["bgVideo"]}
         src={bgVideo}
@@ -23,7 +23,7 @@ function App() {
           {time.toLocaleTimeString().replace(/AM|PM/g, "")}
         </h1>
       </div>
-    </>
+    </div>
   );
 }
 
