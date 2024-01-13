@@ -51,7 +51,7 @@ body {
 }
 @media (max-height: 1024px) {
   .bgVideo {
-    margin-top: -70px;
+    margin-top: -50px;
   }
 }
 @media (max-width: 500px) {
