@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+.bgVideo {
+  position: absolute;
+  z-index: 1;
+  object-fit: cover;
+  margin-top: -250px;
+}
+.container {
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(#ffcc33, rgb(247, 75, 75));
+  padding: 30px 90px;
+  left: 50%;
+  transform: translateX(-48%);
+  top: 37%;
+  border-radius: 20px;
+}
+.time {
+  font-size: 92px;
+  color: white;
+}
+.before {
+  position: absolute;
+  margin-left: -125px;
+  margin-top: -80px;
+  border-radius: 50%;
+  padding: 60px;
+  background: linear-gradient(blue, white, green);
+  filter: blur(5px);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.uz {
+  position: absolute;
+  top: 0;
+  left: -25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  color: gray;
+}
