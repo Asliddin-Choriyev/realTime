@@ -49,3 +49,32 @@ body {
   font-size: 20px;
   color: gray;
 }
+
+@media (max-width: 425px) {
+  .container {
+    padding: 20px 20px;
+  }
+  .before {
+    margin-left: -60px;
+    margin-top: -100px;
+  }
+  .uz {
+    margin-top: -30px;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    padding: 20px 20px;
+  }
+  .time {
+    font-size: 76px;
+  }
+  .before {
+    margin-left: -40px;
+    margin-top: -110px;
+  }
+  .uz {
+    margin-top: -40px;
+    margin-left: 15px;
+  }
+}
