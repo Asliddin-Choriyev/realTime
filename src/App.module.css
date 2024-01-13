@@ -55,6 +55,11 @@ body {
     margin-top: -50px;
   }
 }
+@media (max-width: 1024px) {
+  .container {
+    padding: 30px 90px;
+  }
+}
 @media (max-width: 500px) {
   .contain {
     max-width: 500px;
