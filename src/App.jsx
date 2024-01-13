@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./App.module.css";
-import bgVideo from "../../../My Videos/for projects/golden.mp4";
+import bgVideo from "../golden.mp4";
 
 function App() {
   const [time, setTime] = useState(new Date());
