@@ -6,6 +6,7 @@
 
 body {
   overflow: hidden;
+  background-color: black;
 }
 .bgVideo {
   position: absolute;
@@ -49,7 +50,7 @@ body {
   font-size: 20px;
   color: black;
 }
-@media (max-height: 1024px) {
+@media (min-height: 1024px) {
   .bgVideo {
     margin-top: -50px;
   }
